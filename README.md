@@ -1,8 +1,8 @@
 # The MEPC-OPPC Dataset
 MEPC-OPPC: Synthetic BIM based Occluded Point Cloud Dataset of MEP Components via Realistic LiDAR Simulation
 
-<img src="img/109353.PNG" >
-<img src="img/110302.PNG" >
+<img align="left" width="100" height="100"src="img/109353.PNG" >
+<img align="center" width="100" height="100"src="img/110302.PNG" >
 <img src="img/111475.PNG" >
 <img src="img/111548.PNG" >
 <img src="img/113501.PNG" >
