@@ -8,3 +8,14 @@ Point clouds are extensively utilized in the Architecture, Engineering, and Cons
 ## Dataset Discription
 
 The MEPC-OPPC Dataset contains partial occluded and ground truth point clouds of various model types in a MEP environment captured by a real-world based LiDAR simulation.
+
+## Getting Started
+
+An automatic download script is provided:
+
+```
+git clone https://github.com/uulm-mrm/semantic_spray_dataset.git
+bash download.sh
+```
+
+For the manual download of the data, a guide is also provided here.
