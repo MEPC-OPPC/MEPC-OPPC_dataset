@@ -26,7 +26,6 @@ For the manual download of the data, a guide is also provided [here](docs/manual
 ## Exploring The Data
 
 The sensor setup used for the simulations is the following:
-*Sensors*
 
    + 2 HESAI XT32M2X 32-Channel Medium-Range Mechanical LiDAR (top- and front-mounted high-resolution LiDAR)
 
