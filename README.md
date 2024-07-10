@@ -32,20 +32,20 @@ The sensor setup used for the recordings is the following:
 
 *Raw Data*
 
-    + [Camera Image] in the folder "image_2"
-    + [VLP32C LiDAR] in the folder "velodyne"
-    + [VLIbeo LUX 2010 LiDAR front] in the folder "ibeo_front"
-    + [VLIbeo LUX 2010 LiDAR rear] in the folder "ibeo_rear"
-    + [Aptiv ESR 2.5 Radar] in the folder "delphi_radar"
+   + [Camera Image] in the folder "image_2"
+   + [VLP32C LiDAR] in the folder "velodyne"
+   + [VLIbeo LUX 2010 LiDAR front] in the folder "ibeo_front"
+   + [VLIbeo LUX 2010 LiDAR rear] in the folder "ibeo_rear"
+   + [Aptiv ESR 2.5 Radar] in the folder "delphi_radar"
 
 *Labels*
 
-    + [Semantic Labels for VLP32C LiDAR] in the folder "labels"
-    + [Semantic Labels for Radar] in the folder "radar_labels"
-    + [3D Object Labels for VLP32C LiDAR] in the folder "object_labels/lidar"
-    + [2D Object Labels for Camera] in the folder "object_labels/camera"
+   + [Semantic Labels for VLP32C LiDAR] in the folder "labels"
+   + [Semantic Labels for Radar] in the folder "radar_labels"
+   + [3D Object Labels for VLP32C LiDAR] in the folder "object_labels/lidar"
+   + [2D Object Labels for Camera] in the folder "object_labels/camera"
 
 *Misc*
 
-    + The ego vehicle poses are located in the file "poses.txt". The convention used by the SemanticKITTI dataset is followed.
-    + Additional information on the scene setup (e.g., ego_velocity) are given in the "metadata.txt" file.
+   + The ego vehicle poses are located in the file "poses.txt". The convention used by the SemanticKITTI dataset is followed.
+   + Additional information on the scene setup (e.g., ego_velocity) are given in the "metadata.txt" file.
