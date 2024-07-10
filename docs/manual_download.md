@@ -11,7 +11,7 @@
 $ unzip .zip
 ```
 The extracted dataset should have a structure like this:
-
+```
   ├── data
       |--- 101145.ply
       |--- 101145_0.ply
@@ -19,3 +19,4 @@ The extracted dataset should have a structure like this:
       ...
       |--- 199705.ply
       |--- 199705_0.ply
+```
