@@ -4,7 +4,7 @@ MEPC-OPPC: Synthetic BIM based Occluded Point Cloud Dataset of MEP Components vi
 _Occluded point cloud (green) and partial point cloud (red) of various model types:_
 
 <img width="200" src="img/109353.PNG" > <img width="150" src="img/110302.PNG" > <img width="100" src="img/111475.PNG" >
-<img width="150" src="img/111548.PNG" > <img width="150" src="img/113501.PNG" > <img width="150" src="img/113694.PNG" >
+<img width="150" src="img/111548.PNG" > <img width="150" src="img/113694.PNG" >
 
 ### Methodology
 
