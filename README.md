@@ -18,4 +18,4 @@ git clone https://github.com/uulm-mrm/semantic_spray_dataset.git
 bash download.sh
 ```
 
-For the manual download of the data, a guide is also provided [here] (docs/manual_download.md).
+For the manual download of the data, a guide is also provided (docs/manual_download.md).
