@@ -17,11 +17,11 @@ The MEPC-OPPC Dataset contains partial occluded and ground truth point clouds of
 An automatic download script is provided:
 
 ```
-git clone https://github.com/uulm-mrm/semantic_spray_dataset.git
+git clone https://github.com/MEPC-OPPC/MEPC-OPPC_dataset.git
 bash download.sh
 ```
 
-For the manual download of the data, a guide is also provided [here] (docs/manual_download.md).
+For the manual download of the data, a guide is also provided [here](docs/manual_download.md).
 
 ## Exploring The Data
 
