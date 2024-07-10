@@ -3,7 +3,7 @@
 + Download the dataset from here. Afterwards, you should have the following files:
 ```
     - .zip
-    ```
+```
 + Combine all of the zip files in one single file:
 
 + Extract the files:
