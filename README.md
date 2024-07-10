@@ -7,7 +7,7 @@ Point clouds are extensively utilized in the Architecture, Engineering, and Cons
 
 ## Dataset Discription
 
-The MEPC-OPPC Dataset contains partial occluded and ground truth point clouds of various model types in a MEP environment captured by a real-world based LiDAR simulation.
+The MEPC-OPPC Dataset contains partial occluded and ground truth point clouds of various model types in a MEP environment captured by a real-world based LiDAR simulation. Every file named as e.g., "101145.ply" or "101195.ply" always represents the ground truth point cloud for each object.
 
 ## Getting Started
 
