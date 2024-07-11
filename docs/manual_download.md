@@ -13,10 +13,33 @@ $ unzip .zip
 The extracted dataset should have a structure like this:
 ```
   ├── data
-      |--- 101145.ply
-      |--- 101145_0.ply
-      |--- 101145_1.ply
-      ...
-      |--- 199705.ply
-      |--- 199705_0.ply
+      ├── MEP
+      |   |--- IfcAirTerminal
+      |   |   |--- 113104.ply
+      |   |   |--- 113104_0.ply
+      |   |   |--- 113104_1.ply
+      |   |   |--- ...
+      |   |--- IfcAlarm
+      |   |   |--- ...
+      |   |--- IfcAudioVisualAppliance
+      |   |   |--- ...
+      |   |--- IfcCableCarrierFitting
+      |   |   |--- ...
+      |   |--- IfcCableCarrierSegment
+      |   |   |--- ...
+      |   |--- IfcCableFitting
+      |   |   |--- ...
+      |   |--- IfcChiler
+      |   |   |--- ...
+      |   |--- ...
+      |   |   |--- ...
+      ├── Non-MEP
+      |   |--- IfcBeam
+      |   |   |--- 109803.ply
+      |   |   |--- 109803_0.ply
+      |   |   |--- 109803_1.ply
+      |   |   |--- ...
+      |   |--- IfcBuildingElementProxy
+      |   |   |--- ...
+      └── _description_filtered.csv
 ```
