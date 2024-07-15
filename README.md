@@ -3,7 +3,7 @@
 
 _Occluded point cloud (green) and partial point cloud (red) of various model types:_
 
-<img style="width:100%; max-width:600px; display: block; margin: auto;" src="img/GA.PNG">
+<img style="width:100%; max-width:600px; display: block; margin: auto;" src="./img/GA.PNG">
 
 ## Abstract
 
