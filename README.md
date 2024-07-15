@@ -3,11 +3,10 @@
 
 _Occluded point cloud (green) and partial point cloud (red) of various model types:_
 
-<img width="200" src="img/109353.PNG" > 
-<img width="150" src="img/110302.PNG" > 
-<img width="100" src="img/111475.PNG" >
-<img width="150" src="img/111548.PNG" > 
-<img width="150" src="img/113694.PNG" >
+<img width="200" src="img/109353.PNG"><img width="150" src="img/110302.PNG"><img width="100" src="img/111475.PNG">
+
+
+<img width="150" src="img/111548.PNG"><img width="150" src="img/113694.PNG">
 
 ## Abstract
 
@@ -26,7 +25,7 @@ The partial point clouds for each object type were aligned to one ground truth i
 
 
 
-## Exploring The Data
+## Simulation setup
 
 The settings for the XML files used in Virtual Laser Scanning (VLS) configuration were configured to create a realistic simulation environment and the selected simulated device is the NavVis VLX 3 , a wearable portable LiDAR device which is configured in HELIOS++.
 
