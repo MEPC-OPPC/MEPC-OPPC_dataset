@@ -1,44 +1,35 @@
-# The MEPC-OPPC Dataset
-MEPC-OPPC: Synthetic BIM based Occluded Point Cloud Dataset of MEP Components via Realistic LiDAR Simulation
+# MEPC-OPPC: Synthetic BIM based Occluded Point Cloud Dataset of MEP Components via Realistic LiDAR Simulation
+
 
 _Occluded point cloud (green) and partial point cloud (red) of various model types:_
 
-<img width="200" src="img/109353.PNG" > <img width="150" src="img/110302.PNG" > <img width="100" src="img/111475.PNG" >
-<img width="150" src="img/111548.PNG" > <img width="150" src="img/113694.PNG" >
-
-### Methodology
-
-<img src="img/Overview.jpg" >
+<img width="200" src="img/109353.PNG" > 
+<img width="150" src="img/110302.PNG" > 
+<img width="100" src="img/111475.PNG" >
+<img width="150" src="img/111548.PNG" > 
+<img width="150" src="img/113694.PNG" >
 
 ## Abstract
 
 Point clouds are extensively utilized in the Architecture, Engineering, and Construction (AEC) industry for tasks such as factory equipment relocation planning, layout and assembly line planning, global manufacturing operations, 5S and Gemba Walks, best practice sharing, visual interfaces, and Scan-to-BIM processes. An accurate point cloud enhances efficiency and effectiveness in these applications. This paper is utilizing and configuring existing data extraction pipelines for generation, anonymization and alignment of ground truth and partial occluded point cloud data of Mechanical, Electrical, and Plumbing (MEP) components generating and providing pairs of ground truth and occluded point clouds as a coincide dataset. Specifically, a point cloud is generated from detailed Building Information Modeling (BIM) models via simulation of Light Detection and Ranging (LiDAR) output and applying device-specific configuration data from existing commercial devices, replicating the point cloud outcome in reality.  By utilizing the specific labels included in the detailed BIM model data, via point sampling, the ground truth information is being generated in a per-instance fashion, meaning that individual segmented ground truth point clouds of MEP components are created also accompanied by partial counterparts.
 
+## Methodology
+
+<img src="img/Overview.png" >
+
+
+
 ## Dataset Discription
 
-The MEPC-OPPC Dataset contains partial occluded and ground truth point clouds of various model types in a MEP environment captured by a real-world based LiDAR simulation. Every file named as e.g., "101145.ply" or "101195.ply" always represents the ground truth point cloud for each object.
+In total, the dataset consists of 1,956 files: 284 ground truths and 1,672 partial point clouds. All MEP components together include 1,561 partial point clouds, all non-MEP components contain 111 partial point clouds. Further distribution of the dataset regarding its MEP components and number of partial point clouds is shown in Table \ref{tab:distribution}. The number of partial point clouds of each model type and object differs due to amount of the same object appearing or capturing in the virtual scan.
+The partial point clouds for each object type were aligned to one ground truth in its position which is the file named with the object UID without a number. Each ground truth consists of 16384 points.
 
-## Getting Started
 
-An automatic download script is provided:
-
-```
-git clone https://github.com/MEPC-OPPC/MEPC-OPPC_dataset.git
-bash download.sh
-```
-
-For the manual download of the data, a guide is also provided [here](docs/manual_download.md).
 
 ## Exploring The Data
 
-The sensor setup used for the simulations is the following:
+The settings for the XML files used in Virtual Laser Scanning (VLS) configuration were configured to create a realistic simulation environment and the selected simulated device is the NavVis VLX 3 , a wearable portable LiDAR device which is configured in HELIOS++.
 
-   + 2 HESAI XT32M2X 32-Channel Medium-Range Mechanical LiDAR (top- and front-mounted on human)
-
-## Visualizing The Data
-
-## Related Work
-
-## Citation
-
-If you find this dataset useful in your research, consider citing our work:
+The VLS of a certain space is defined in a survey related XML schema including the path waypoints, the speed of the scanning device, the pulse frequency, head rotation frequency along with starting and ending positions, scanning angle and frequency. The beam divergence was subsequently calculated using provided formulas and integrated into the XML files. 
+For configuring the scanner settings, the NavVis VLX 3 device, which includes two XT32M2X 32-Channel Medium-Range Mechanical LiDAR scanners from HESAI , was used. The correct locations of the scanners were set based on HELIOS++ coordinate system definitions. 
+The horizontal and vertical scanners were positioned with specific offsets and heights, their channel angles and specifications were detailed in the XML files. The pulse frequency was set to 20,000 points per second.
