@@ -17,8 +17,7 @@ Point clouds are extensively utilized in the Architecture, Engineering, and Cons
 
 ## Dataset Discription
 
-In total, the dataset consists of 1,956 files: 284 ground truths and 1,672 partial point clouds. All MEP components together include 1,561 partial point clouds, all non-MEP components contain 111 partial point clouds. Further distribution of the dataset regarding its MEP components and number of partial point clouds is shown in Table \ref{tab:distribution}. The number of partial point clouds of each model type and object differs due to amount of the same object appearing or capturing in the virtual scan.
-The partial point clouds for each object type were aligned to one ground truth in its position which is the file named with the object UID without a number. Each ground truth consists of 16384 points.
+In total, the dataset consists of 1,956 files: 284 ground truths and 1,672 partial point clouds. All MEP components together include 1,561 partial point clouds, all non-MEP components contain 111 partial point clouds. The partial point clouds for each object type were aligned to one ground truth in its position which is the file named with the object UID without a number. Each ground truth consists of 16384 points.
 
 
 
